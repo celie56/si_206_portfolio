@@ -3,15 +3,18 @@ background-color: #ADAFB2;
 }
 
 h1 {
-color: green;
+color: white;
 }
 
 a {
-color: white;
-text-decoration: none;
+color: #FFCB05;
 }
 a:hover {
 color: #FFCB05;
+}
+.choice {
+color: white;
+text-decoration: none;
 }
 
 /* Row class style */
