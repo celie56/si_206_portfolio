@@ -15,7 +15,11 @@
 				</div>
 				<div class="two-thirds column">
 					<h1>Chris Elie</h1>
-					<p>Thank you for visiting my site, please click on one of the headers below to learn more.</p>
+					Thank you for visiting my site, please click on one of the headers below to learn more.
+					<br>
+					Quick Links: 
+					<a href="mailto:celie56@gmail.com">Email Me</a>
+					<a href="https://github.com/celie56">Github</a>
 				</div>
 			</header>
 			<div class="row myrow">
