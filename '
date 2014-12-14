@@ -22,17 +22,13 @@ border: solid white 1px;
 color: white;
 padding: 0px 2%;
 }
+.myrow:nth-child(1){
+}
 .myrow:nth-child(odd){
 background-color: #333333;
 }
 .myrow:nth-child(even){
 background-color: #003162;
-}
-.myrow:first-of-type {
-border-top: solid white 4px;
-}
-.myrow:last-of-type {
-border-bottom: solid white 4px;
 }
 
 /* Let's get this header */
