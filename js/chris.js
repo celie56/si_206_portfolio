@@ -7,6 +7,7 @@ $(function(){
 	$(".choice").click(function(){
 		$loc = "." + $(this).attr("id");
 		$($loc).toggle();
+		return false;
 	});
 
 	$(".yoxview").yoxview();
