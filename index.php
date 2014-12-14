@@ -9,11 +9,12 @@
 	</head>
 	<body>
 		<div class="container">
-			<header class="row">
-				<div class="one-third">
-					<h1>Chris Elie</h1>
+			<header class="row head">
+				<div class="one-third column">
 				</div>
-				<div class="one-third">
+				<div class="two-thirds column">
+					<h1>Chris Elie</h1>
+					<p>Thank you for visiting my site, please click on one of the headers below to learn more.</p>
 				</div>
 			</header>
 			<div class="row myrow">
