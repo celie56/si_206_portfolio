@@ -1,0 +1,33 @@
+body{
+background-color: #ADAFB2;
+}
+
+h1 {
+color: green;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+a:hover {
+color: #FFCB05;
+}
+
+/* Row class style */
+.row > div:first-child{
+cursor: pointer;
+}
+.row {
+border: solid white 1px;
+margin-bottom: 0px;
+color: white;
+padding: 0px 2%;
+}
+.row:nth-child(odd){
+background-color: #6F2A8E;
+}
+.row:nth-child(even){
+background-color: #0F6CB6;
+}
+
