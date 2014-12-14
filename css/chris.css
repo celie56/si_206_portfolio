@@ -2,6 +2,14 @@ body{
 background-color: #ADAFB2;
 }
 
+header {
+height: 300px;
+}
+header > div {
+height: 100%;
+	background-image: url("../pics/chris1_thumb.jpg");
+	background-repeat: no-repeat;
+}
 h1 {
 color: white;
 }
@@ -18,19 +26,21 @@ text-decoration: none;
 }
 
 /* Row class style */
-.row > div:first-child{
+.myrow > div:first-child{
 cursor: pointer;
 }
 .row {
+	margin-bottom: 0px;
+}
+.myrow {
 border: solid white 1px;
-margin-bottom: 0px;
 color: white;
 padding: 0px 2%;
 }
-.row:nth-child(odd){
+.myrow:nth-child(odd){
 background-color: #6F2A8E;
 }
-.row:nth-child(even){
+.myrow:nth-child(even){
 background-color: #0F6CB6;
 }
 

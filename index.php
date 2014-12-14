@@ -9,47 +9,59 @@
 	</head>
 	<body>
 		<div class="container">
-			<div>
-				<h1>Chris Elie</h1>
-			</div>
-			<div class="row">
+			<header class="row">
+				<div class="one-third">
+					<h1>Chris Elie</h1>
+				</div>
+				<div class="one-third">
+				</div>
+			</header>
+			<div class="row myrow">
 				<div class="two columns">
 					<h2><a id="about" href="#" class="choice">About</a></h2>
 				</div>
 				<div class="ten columns">
-					<div class="about shide">
-						<?php include "pages/about.html"; ?>
-					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row myrow">
+				<div class="about shide">
+					<?php include "pages/about.html"; ?>
+				</div>
+			</div>
+			<div class="row myrow">
 				<div class="two columns">
 					<h2><a id="resume" class="choice" href="#">Resume</a></h2>
 				</div>
 				<div class="ten columns">
-					<div class="resume shide">
-						<?php include "pages/resume.html"; ?>
-					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row myrow">
+				<div class="resume shide">
+					<?php include "pages/resume.html"; ?>
+				</div>
+			</div>
+			<div class="row myrow">
 				<div class="two columns">
 					<h2><a id="contact" class="choice" href="#">Contact</a></h2>
 				</div>
 				<div class="ten columns">
-					<div class="contact shide">
-						<?php include "pages/contact.html"; ?>
-					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row myrow">
+				<div class="contact shide">
+					<?php include "pages/contact.html"; ?>
+				</div>
+			</div>
+			<div class="row myrow">
 				<div class="two columns">
 					<h2><a id="photos" class="choice" href="#">Photos</a></h2>
 				</div>
 				<div class="ten columns">
-					<div class="photos shide">
-						<?php include "pages/photos.html"; ?>
-					</div>
+				</div>
+			</div>
+			<div class="row myrow">
+				<div class="photos shide">
+					<?php include "pages/photos.html"; ?>
 				</div>
 			</div>
 		</div>
