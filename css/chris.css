@@ -2,7 +2,6 @@ body{
 background-color: #ADAFB2;
 }
 
-
 a {
 color: #FFCB05;
 }
@@ -33,7 +32,7 @@ background-color: #003162;
 /* Let's get this header */
 .head {
 height: 300px;
-margin-bottom: -120px;
+margin-bottom: -110px;
 background-color: #003162;
 color: white;
 }
@@ -55,4 +54,11 @@ vertical-align: middle;
 h1 {
 margin-top: 40px;
 color: #FFCB05;
+}
+
+textarea {
+color: black;
+}
+footer {
+text-align: center;
 }

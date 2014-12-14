@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<?php include "style.html"; ?>
 		<?php include "scripts.html"; ?>
+		<?php include "submit.php"; ?>
 	</head>
 	<body>
 		<div class="container">
@@ -66,5 +67,6 @@
 				</div>
 			</div>
 		</div>
+		<?php include "pages/footer.html" ?>
 	</body>
 </html>

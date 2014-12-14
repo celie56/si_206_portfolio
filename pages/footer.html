@@ -1,0 +1,6 @@
+<footer>
+<?php
+$filename = basename($_SERVER['SCRIPT_NAME']);
+echo "This page was last modified on " . date("F d Y H:i:s.", filemtime($filename));
+?>
+</footer>
