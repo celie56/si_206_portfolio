@@ -6,7 +6,6 @@ $(function(){
 
 	$(".choice").click(function(){
 		$loc = "." + $(this).attr("id");
-		$(".shide").hide();
 		$($loc).toggle();
 	});
 
