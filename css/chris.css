@@ -53,6 +53,9 @@ background-image: url("../pics/umich_thumb.png");
 	.head > div:first-child {
 	display: none;
 	}
+	.head {
+	margin-bottom: -40px;
+	}
 }
 .head > div:nth-child(2) {
 vertical-align: middle;
