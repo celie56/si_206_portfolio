@@ -12,32 +12,20 @@
 			<header class="row head">
 				<div class="one-third column">
 				</div>
-				<div class="two-thirds column">
+				<div class="">
 					<h1>Chris Elie</h1>
-					Thank you for visiting my site, please click on one of the headers below to learn more.
 					<br>
-					Quick Links: 
-					<a href="mailto:celie56@gmail.com">Email Me</a>
-					<a href="https://github.com/celie56">Github</a>
+					<nav>
+						<a id="about" href="#" class="button choice">About</a>
+						<a id="resume" class="button choice" href="#">Resume</a>
+						<a id="contact" class="button choice" href="#">Contact</a> 
+						<a id="photos" class="button choice" href="#">Photos</a> 
+					</nav>
 				</div>
 			</header>
 			<div class="row myrow">
-				<div class="two columns">
-					<h2><a id="about" href="#" class="choice">About</a></h2>
-				</div>
-				<div class="ten columns">
-				</div>
-			</div>
-			<div class="row myrow">
 				<div class="about shide">
 					<?php include "pages/about.html"; ?>
-				</div>
-			</div>
-			<div class="row myrow">
-				<div class="two columns">
-					<h2><a id="resume" class="choice" href="#">Resume</a></h2>
-				</div>
-				<div class="ten columns">
 				</div>
 			</div>
 			<div class="row myrow">
@@ -46,22 +34,8 @@
 				</div>
 			</div>
 			<div class="row myrow">
-				<div class="two columns">
-					<h2><a id="contact" class="choice" href="#">Contact</a></h2>
-				</div>
-				<div class="ten columns">
-				</div>
-			</div>
-			<div class="row myrow">
 				<div class="contact shide">
 					<?php include "pages/contact.html"; ?>
-				</div>
-			</div>
-			<div class="row myrow">
-				<div class="two columns">
-					<h2><a id="photos" class="choice" href="#">Photos</a></h2>
-				</div>
-				<div class="ten columns">
 				</div>
 			</div>
 			<div class="row myrow">

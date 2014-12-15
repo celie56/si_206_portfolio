@@ -9,7 +9,7 @@ a:hover {
 color: #FFCB05;
 }
 .choice {
-color: white;
+color: #FFCB05;
 text-decoration: none;
 }
 
@@ -18,21 +18,21 @@ text-decoration: none;
 margin-bottom: 0px;
 }
 .myrow {
-border: solid white 1px;
 color: white;
 padding: 0px 2%;
 }
-.myrow:nth-child(odd){
+.myrow{
 background-color: #333333;
-}
-.myrow:nth-child(even){
-background-color: #003162;
 }
 .myrow:first-of-type {
 border-top: solid white 4px;
 }
 .myrow:last-of-type {
 border-bottom: solid white 4px;
+}
+
+.button:hover, .button:focus {
+color: white;
 }
 
 /* Let's get this header */
@@ -54,15 +54,25 @@ background-image: url("../pics/umich_thumb.png");
 	display: none;
 	}
 	.head {
+	text-align: center;
 	margin-bottom: -40px;
+	}
+}
+@media (min-width: 500px) {
+	.shide {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	}
 }
 .head > div:nth-child(2) {
 vertical-align: middle;
 }
 h1 {
-margin-top: 40px;
+padding-top: 30px;
 color: #FFCB05;
+}
+nav a {
+font-size: x-large;
 }
 
 textarea {
