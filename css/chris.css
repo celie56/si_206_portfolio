@@ -2,12 +2,10 @@ body{
 background-color: #ADAFB2;
 }
 
-a {
+a, a:hover {
 color: #FFCB05;
 }
-a:hover {
-color: #FFCB05;
-}
+
 .choice {
 color: #FFCB05;
 text-decoration: none;
@@ -39,7 +37,7 @@ color: white;
 .head {
 height: 300px;
 margin-bottom: -110px;
-background-color: #003162;
+background-color: #002D62;
 color: white;
 }
 .head > div {
@@ -49,6 +47,8 @@ background-repeat: no-repeat;
 .head > div:first-child {
 background-image: url("../pics/umich_thumb.png");
 }
+
+/* Media Queries :) */
 @media (max-width: 1000px) {
 	.head > div:first-child {
 	display: none;
@@ -80,4 +80,7 @@ color: black;
 }
 footer {
 text-align: center;
+}
+footer a {
+color: #002D62;
 }

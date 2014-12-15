@@ -43,7 +43,9 @@
 					<?php include "pages/photos.html"; ?>
 				</div>
 			</div>
+			<div class="row foot">
+				<?php include "pages/footer.html" ?>
+			</div>
 		</div>
-		<?php include "pages/footer.html" ?>
 	</body>
 </html>
