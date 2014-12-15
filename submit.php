@@ -5,12 +5,16 @@
 	foreach($_POST as $key => $value){
 		$message .= "$key: $value\n";
 	}	
-	$subject =	'Anonymous comment from portfolio';
-	$headers =	'From: si_206@example.com' . "\r\n" .
-				'Reply-To: si_206@example.com' . "\r\n" .
-				'X-Mailer: PHP/' . phpversion();
+	if ($message != ""){
+		$to = "celie56@gmail.com";
+		$subject =	'Anonymous comment from portfolio';
+		$headers =	'From: si_206@example.com' . "\r\n" .
+					'Reply-To: si_206@example.com' . "\r\n" .
+					'X-Mailer: PHP/' . phpversion();
 
-	//mail($to, $subject, $message, $headers);
+		// sorry, I don't actually want any emails from this form at this time
+		// mail($to, $subject, $message, $headers);
+	}
 ?>
 	<head>
 		<title>Comment Submission</title>
