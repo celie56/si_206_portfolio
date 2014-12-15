@@ -12,18 +12,20 @@ $(function(){
 
 	$(".yoxview").yoxview();
 
-	$("#submit_button").click(function(){
-		var request = $.ajax({
-			type: "POST",
-			url : "#",
-			data : $("#Message").val(),
-		});
-		request.done(function(msg){
-			alert("email sent");
-		});
-		request.fail(function(msg){
-			alert("failure");
-		});
-	});
+	// this will handle the form without redirecting
+//	$("#submit_button").click(function(){
+//		var request = $.ajax({
+//			type: "POST",
+//			url : "submit.php",
+//			data : $("#Message").val(),
+//		});
+//		request.done(function(msg){
+//			alert("email sent");
+//			console.log(msg);
+//		});
+//		request.fail(function(msg){
+//			alert("failure");
+//		});
+//	});
 });
 
